@@ -1,0 +1,55 @@
+#ul1{
+    list-style-type: circle;
+    list-style-position: outside;
+    width: 100px;
+}
+
+#ul2{
+    list-style-type: circle;
+    list-style-position: inside;
+    width: 100px;
+    /*text-algin: center;*/
+}
+
+#ul3{
+    list-style-image: url("applee.png");
+    list-style-position: inside;
+}
+
+#ol1{
+    list-style-type: none;
+}
+
+#ol2{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#ol3{
+    list-style: inside upper-roman;
+    width: 100px;
+}
+
+#ul4{
+    background: red;
+   padding: 20px;
+
+}
+
+#ul4 li{
+    background: purple;
+    color: white;
+    margin: 10px;
+}
+
+#ol4{
+     background: #aa3355;
+     padding: 30px;
+}
+
+#ol4 li:hover{
+    background: #5533ff;
+    color: white;
+    font-size: 20px;
+}

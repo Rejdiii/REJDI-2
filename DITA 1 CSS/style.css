@@ -1,0 +1,56 @@
+/* Selector {deklarimi} */
+
+
+/*universal selector */
+*{
+ background-color: burlywood;
+ color: blueviolet;
+}
+
+/* Tag Selector */
+p{
+     background-color: aqua ;
+    
+}
+
+#P1{
+font-size: 30px;
+background-color: red;
+color: black;
+
+}
+
+/* Class sector */
+
+.para{
+
+font-size: 40px;
+background-color:rgb(141, 19, 111);
+color: rgb(84, 255, 32);
+     
+}
+
+/* Descending Selector */
+div p{
+     background-color: chocolate;
+     font-size: 26px;
+     color: black;
+}
+
+
+
+/* Child Selector */
+div h1{
+     background-color: chocolate;
+     font-size: 22px;
+     color: blue;
+}
+
+
+
+
+h2,h3,button{
+     background-color: chartreuse;
+     color: red;
+
+}

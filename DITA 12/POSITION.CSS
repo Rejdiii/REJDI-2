@@ -1,0 +1,98 @@
+/*Position of elements*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Normal flow*/
+/*  Nuk ndryshojn pozicionin*/
+
+#p1{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static
+}
+
+#p2{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static
+}
+
+#p3{
+      border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 500px;
+}
+
+#p4{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+    background-color: rgb(105, 166, 236);
+
+}
+
+/*Absulute positioning*/
+#p5{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#p6{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static;
+}
+
+/*Dixed position*/
+/*edhe nese scrool nuk ndryshon pozicionin*/
+#p7{
+    border: 1px solid black;
+    background-color: rgb(114, 228, 104);
+    width: 200px;
+    height: 100px;
+    position:fixed;
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+}
+
+#p8{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position:static;
+}
+
+
+#p9{
+    border: 1px solid black;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    left: 300px;
+    top: 120px;
+    z-index: 99;
+}
+
+#p10{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top: 50px;
+    left: 1000px;
+}

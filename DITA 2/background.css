@@ -1,0 +1,31 @@
+body{
+   
+    background-image: url('archena.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: cover;
+    background-attachment: fixed;
+    
+}
+
+div{
+    border:10px solid black;
+    height: 400px;
+    width:400px
+}
+
+
+#div1{
+    background-image: url('22.jpg');
+    background-size: 100%;
+    background-size: cover;
+}
+
+P{
+    font-size: 20PX;
+    
+}
+
+#div2{
+    background: green url(archena.jpg) no-repeat 100% scroll;
+}
